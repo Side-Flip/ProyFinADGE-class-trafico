@@ -1,0 +1,77 @@
+# Entorno Virtual de Python
+venv/
+env/
+.venv/
+ENV/
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de log generados por Spark, Hadoop y otros
+*.log
+*.out
+*.err
+logs/
+tmp/
+
+# Archivos de configuración locales (por ejemplo, configuración de Hadoop, Spark)
+*.conf
+*.yml
+*.yaml
+*.json
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos generados por Hadoop
+hadoop_output/
+hadoop_data/
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de dependencias en caso de estar usando pipenv o poetry
+Pipfile.lock
+poetry.lock
+
+# Archivos de dependencias de Spark y Hadoop
+*.jar
+*.class
+
+# Archivos generados por Jupyter Notebooks (si usas notebooks)
+.ipynb_checkpoints/
+*.ipynb
+
+# Archivos de modelos entrenados (IA)
+*.h5
+*.pkl
+*.pth
+*.pt
+
+# Archivos de datos intermedios de IA (por ejemplo, CSVs intermedios, archivos de salida)
+data/intermediate/
+*.csv
+*.tsv
+*.txt
+
+# Resultados de pruebas o salidas de modelos de IA
+outputs/
+predictions/
+results/
+logs/
+
+# Archivos de bibliotecas de IA (por ejemplo, archivos generados por Pandas, NumPy)
+*.npy
+*.npz
+*.pkl
+
+# Dependencias de Jupyter (si usas notebooks para IA)
+.ipython/
+jupyter_notebook_config.py

@@ -49,6 +49,21 @@ poetry.lock
 .ipynb_checkpoints/
 *.ipynb
 
+# Archivos específicos de Google Colab
+.colab/
+.colab_*/
+.colab-*/
+colabtools/
+colab_*.json
+gdrive/
+drive/
+sample_data/
+
+# Archivos temporales de Colab
+/tmp/
+/var/
+/content/
+
 # Archivos de modelos entrenados (IA)
 *.h5
 *.pkl
@@ -75,3 +90,29 @@ logs/
 # Dependencias de Jupyter (si usas notebooks para IA)
 .ipython/
 jupyter_notebook_config.py
+
+# Archivos de configuración de Colab y montaje de Google Drive
+.drive/
+.drive/*
+drive/
+gdrive/
+MyDrive/
+
+# Cache y archivos temporales de Colab
+.cache/
+*.cache
+__pycache__/
+
+# Archivos de instalación temporal de paquetes en Colab
+!*.sh
+!*.txt
+
+# Archivos de sesión de Colab
+colab_*.ipynb
+Copy_of_*.ipynb
+
+# Datasets de ejemplo de Colab (si no quieres subirlos)
+mnist*.csv*
+*.jpg
+*.png
+*.jpeg
